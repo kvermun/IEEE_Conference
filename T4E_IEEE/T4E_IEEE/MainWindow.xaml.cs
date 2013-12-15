@@ -22,6 +22,7 @@ namespace T4E_IEEE
         public MainWindow()
         {
             InitializeComponent();
+            //First Code 
         }
     }
 }
