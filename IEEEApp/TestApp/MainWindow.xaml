@@ -7,8 +7,8 @@
             <ColumnDefinition Width="45*" />
             <ColumnDefinition Width="734*" />
         </Grid.ColumnDefinitions>
-        <my:KinectSensorChooser Grid.Column="1" HorizontalAlignment="Left" Margin="280,365,0,0" Name="kinectSensorChooser1" VerticalAlignment="Top" Width="328" Height="212" />
-        <my:KinectColorViewer Grid.Column="1" HorizontalAlignment="Left" Margin="135,140,0,0" Name="kinectColorViewer1" VerticalAlignment="Top" Height="160" Width="281" Kinect="{Binding ElementName=kinectSensorChooser1, Path=Kinect}" />
-        <my:KinectSkeletonViewer Grid.Column="1" HorizontalAlignment="Right" Margin="0,140,43,0" Name="kinectSkeletonViewer1" VerticalAlignment="Top" Height="160" Width="275" Kinect="{Binding ElementName=kinectSensorChooser1, Path=Kinect}" />
+        <my:KinectSensorChooser HorizontalAlignment="Left" Margin="266,425,0,0" Name="kinectSensorChooser1" VerticalAlignment="Top" Width="328" Grid.Column="1" />
+        <my:KinectColorViewer HorizontalAlignment="Left" Margin="8,51,0,0" Name="kinectColorViewer1" VerticalAlignment="Top" Height="197" Width="449" Kinect="{Binding ElementName=kinectSensorChooser1, Path=Kinect}" Grid.Column="1" />
+        <my:KinectSkeletonViewer Grid.Column="1" HorizontalAlignment="Left" Margin="543,51,0,0" Name="kinectSkeletonViewer1" VerticalAlignment="Top" Height="356" Width="347" Kinect="{Binding ElementName=kinectSensorChooser1, Path=Kinect}" />
     </Grid>
 </Window>
